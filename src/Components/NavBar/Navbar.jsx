@@ -42,7 +42,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='md:w-[95%] lg:w-[90%] lg:px-0 mx-auto flex justify-between px-5 py-3 md:justify-between md:items-center'>
+      <nav className='md:w-[95%] bg-red-500 lg:w-[90%] lg:px-0 mx-auto flex justify-between px-5 py-3 md:justify-between md:items-center'>
         <div>
           <Image
             src={logo}
