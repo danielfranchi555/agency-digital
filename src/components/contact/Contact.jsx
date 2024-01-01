@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const Contact = () => {
     return (
         <div className='bg-[#1E1E20] '>
             <div className='w-full md:w-[90%] mx-auto px-6 py-5 md:px-0 gap-5 flex flex-col mt-20 md:flex  md:flex-row md:items-center lg:py-20 lg:px-0 '>
@@ -16,4 +16,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Contact

@@ -1,12 +1,13 @@
 import { Inter,Nunito_Sans } from 'next/font/google'
 import './globals.css'
-import Navbar from '@/Components/NavBar/Navbar'
-import Hero from '@/Components/Hero/Hero'
-import HeroSmall from '@/Components/HeroSmall/HeroSmall'
-import Services from '@/Components/Services/Services'
-import Portfolio from '@/Components/Portfolio/Portfolio'
-import Footer from '@/Components/Footer/Footer'
-import FooterTwo from '@/Components/FooterTwo/FooterTwo'
+import Hero from '@/components/hero/Hero'
+import HeroSmall from '@/components/sidebar/HeroSmall'
+import Services from '@/components/services/Services'
+import Portfolio from '@/components/portfolio/Portfolio'
+import FooterTwo from '@/components/footer/FooterTwo'
+import Contact from '@/components/contact/Contact'
+import Navbar from '@/components/navbar/Navbar'
+
 
 const inter = Inter({ subsets: ['latin'] })
 const nunito = Nunito_Sans({
@@ -35,7 +36,7 @@ export default function RootLayout({ children }) {
         <Services />
         <Portfolio />
       </section>
-      <Footer />
+      <Contact />
       <FooterTwo/>
       
 
