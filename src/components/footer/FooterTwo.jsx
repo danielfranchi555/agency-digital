@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../../public/logo.svg'
 import Image from 'next/image'
+
 const FooterTwo = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-6 mt-10  w-[90%] mx-auto md:flex md:flex-row md:justify-between md:py-5 '>
